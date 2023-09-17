@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  server:
+    container_name: "devjava"
+    build: .
+    image: openjdk:8
+    ports:
+      - 8080:8080
