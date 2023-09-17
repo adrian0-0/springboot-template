@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 public class EmployeeRepository {
 
     public List<Employee> getEmployees() {
-        return Stream.of(new Employee(101, "Bikas", "Devops", "Bikas@company.com"),
+        return Stream.of(new Employee(101, "Lapis", "Devops", "lapis@company.com"),
                         new Employee(102, "Ashok", "Developer", "Ashok@company.com"),
                         new Employee(103, "Prasad", "Devops", "Prasad@company.com"),
                         new Employee(104, "Santosh", "Developer", "Santosh@company.com"),
